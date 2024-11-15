@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1777858563083376717}
   - component: {fileID: 837399967566775317}
   - component: {fileID: 625737991691721419}
+  - component: {fileID: -8520999511011323382}
   - component: {fileID: 3349053131307146914}
   m_Layer: 0
   m_Name: Health_PickUp
@@ -96,6 +97,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 70e0ec70ab58f704eaa41e4d220ce1f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-8520999511011323382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2816910627294000932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f51aa95cdf093f4b9bf2a6bbb3bfee3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   healAmount: 200

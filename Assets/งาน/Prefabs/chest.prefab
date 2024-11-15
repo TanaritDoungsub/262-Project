@@ -156,4 +156,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2eaa5fae11e3d9b4aa812c65b9a11256, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthPickUp: {fileID: 2816910627294000932, guid: 94a7921f6444ab34b8474f9b7f8014f9, type: 3}
+  dropItemPrefab: {fileID: 2816910627294000932, guid: 94a7921f6444ab34b8474f9b7f8014f9, type: 3}
+  chance: 1

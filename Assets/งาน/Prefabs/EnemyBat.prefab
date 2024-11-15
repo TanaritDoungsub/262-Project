@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 7742601467379583065}
   - component: {fileID: 6994696591481023702}
   - component: {fileID: 8945575104384276532}
+  - component: {fileID: 3385854448597437408}
   m_Layer: 0
   m_Name: EnemyBat
   m_TagString: Untagged
@@ -196,3 +197,18 @@ MonoBehaviour:
   speed: 2
   hp: 5
   damage: 1
+  experience_rewards: 400
+--- !u!114 &3385854448597437408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5878805045492355662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2eaa5fae11e3d9b4aa812c65b9a11256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthPickUp: {fileID: 0}
+  chance: 0.15
