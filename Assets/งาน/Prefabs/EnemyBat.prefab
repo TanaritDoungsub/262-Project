@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7742601467379583065}
   - component: {fileID: 6994696591481023702}
   - component: {fileID: 8945575104384276532}
-  - component: {fileID: 3385854448597437408}
+  - component: {fileID: 499315186464189983}
   m_Layer: 0
   m_Name: EnemyBat
   m_TagString: Untagged
@@ -198,7 +198,7 @@ MonoBehaviour:
   hp: 5
   damage: 1
   experience_rewards: 400
---- !u!114 &3385854448597437408
+--- !u!114 &499315186464189983
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -210,5 +210,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2eaa5fae11e3d9b4aa812c65b9a11256, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthPickUp: {fileID: 0}
+  dropItemPerfab: {fileID: 7682364686064585287, guid: e4c8fe948864bc34e9f784f2f08e171e, type: 3}
   chance: 0.15
