@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class SpawnObject : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] GameObject toSpawn;
+    [SerializeField][Range(0f, 1f)] float probability;
 
-    // Update is called once per frame
-    void Update()
+    public void Spawn()
     {
-        
+        if (Random.value < probability)
+        {
+            GameObject go = Instantiate(toSpawn, transform.position, Quaternion.identity);
+        }
     }
 }
