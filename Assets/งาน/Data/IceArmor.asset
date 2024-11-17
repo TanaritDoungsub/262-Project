@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf414e8b280dbaf4283b793d0a5e5de0, type: 3}
   m_Name: IceArmor
   m_EditorClassIdentifier: 
-  Name: 
-  armor: 0
+  Name: IceArmor
+  armor: 25
