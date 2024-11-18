@@ -5,9 +5,6 @@ using UnityEngine;
 
 public class WhipWeapon : WeaponBase
 {
-    [SerializeField] float timeToAttack = 4f;
-    float timer;
-
     [SerializeField] GameObject leftWhipObject;
     [SerializeField] GameObject rightWhipObject;
 
@@ -26,6 +23,7 @@ public class WhipWeapon : WeaponBase
             IDamageable e = colliders[i].GetComponent<IDamageable>();
             if (e != null)
             {
+                PostDamage(weaponStats.damage, colliders[i].transform.position);
                 e.TakeDamage(weaponStats.damage);
             }
         }

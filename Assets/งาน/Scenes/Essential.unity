@@ -2096,7 +2096,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weaponObjectContainer: {fileID: 586237685}
-  startingWeapon: {fileID: 11400000, guid: b8d14a866fb11a646b85650032bdcbf2, type: 2}
+  startingWeapon: {fileID: 11400000, guid: f489ba48e7d525347a20ace1eeac73f0, type: 2}
 --- !u!1 &1075183046
 GameObject:
   m_ObjectHideFlags: 0
@@ -2389,6 +2389,51 @@ Transform:
   m_GameObject: {fileID: 1133028067}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1235648107
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1235648109}
+  - component: {fileID: 1235648108}
+  m_Layer: 0
+  m_Name: --Message_System--
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1235648108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235648107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f59bcab1098c01a40a2cc928fadceeba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageMessage: {fileID: 66918069957396826, guid: e8e5277007467564393003df3a3d2175, type: 3}
+--- !u!4 &1235648109
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235648107}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3565,6 +3610,7 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1515432960}
+  - {fileID: 1235648109}
   - {fileID: 1041147493}
   - {fileID: 519420032}
   - {fileID: 32302376}
