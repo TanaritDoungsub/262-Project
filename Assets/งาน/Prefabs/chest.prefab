@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 7003196761381147923}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.912871, y: 1.8996, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.46967, y: 0.46967, z: 0.46967}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: 0
   m_Sprite: {fileID: -711915784, guid: cae20d67247aeae4ea45d79b33013946, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -157,7 +157,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2eaa5fae11e3d9b4aa812c65b9a11256, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dropItemPerfab: {fileID: 2816910627294000932, guid: 94a7921f6444ab34b8474f9b7f8014f9, type: 3}
+  dropItemPerfab:
+  - {fileID: 7682364686064585287, guid: e4c8fe948864bc34e9f784f2f08e171e, type: 3}
   chance: 0.2
 --- !u!114 &7168200651205711996
 MonoBehaviour:
